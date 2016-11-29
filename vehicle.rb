@@ -1,13 +1,10 @@
 class Vehicle
 
-  def initialize()
+  #initializes values for lights and signals to be "false" or "off"
+  def initialize
     @lights = false
     @l_signal = false
     @r_signal = false
-  end
-
-  def year
-    @year
   end
 
   # Turn lights on and off
@@ -42,6 +39,5 @@ class Vehicle
       @r_signal = false
     end
   end
-
 
 end

@@ -1,11 +1,4 @@
-
-
-class Toyota < Car
-
-
-  def to_s
-    "Car has " + @wheels.to_s + " wheels, it's current speed is " + @speed.to_s + " km/h & it is a " + @year + " model."
-  end
+class Toyota < Car #Toyota inherits methods from Car and therefore Vehicle
 
   def accel
     @speed += 7

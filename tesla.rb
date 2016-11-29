@@ -1,9 +1,5 @@
-class Tesla < Car
+class Tesla < Car #Tesla inherits methods from Car and therefore Vehicle
 
-
-  def to_s
-    "Car has " + @wheels.to_s + " wheels, it's current speed is " + @speed.to_s + " km/h & it is a " + @year + " model."
-  end
 
   def accel
     @speed += 10
